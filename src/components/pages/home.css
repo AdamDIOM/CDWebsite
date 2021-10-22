@@ -1,20 +1,20 @@
-.App {
+.Home {
   text-align: center;
 }
-.App .BackImage{
+.BackImage{
 
-  background-image: url("images/stock-handshake.jpeg");
+  background-image: url("../../images/stock-handshake.jpeg");
   background-repeat:no-repeat;
   background-position: center;
   background-size: cover;
 }
-.App .ImageCover{
+.ImageCover{
   background-color:rgba(40, 44, 52, 0.7);
 }
 Navbar{
   height:100px;
 }
-.App .Hello{
+.Hello{
   opacity:100;
   height: calc(100vh - 56px);
   display: flex;
