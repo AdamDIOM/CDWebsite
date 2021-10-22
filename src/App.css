@@ -1,20 +1,19 @@
 .App {
   text-align: center;
 }
+.App .BackImage{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-image: url("images/stock-handshake.jpeg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .ImageCover{
+  background-color:rgba(40, 44, 52, 0.7);
 }
-
-.App-header {
-  background-color: #282c34;
+.App .Hello{
+  /*background-color: #282c34;*/
+  opacity:100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +21,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
