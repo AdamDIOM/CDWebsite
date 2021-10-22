@@ -8,9 +8,13 @@ function Home() {
           <div className="Hello">
             <p>Hello</p>
             Scroll down to read more
+            <img src="/images/down.gif" alt="scroll down icon" className="scroll-img"/>
           </div>
         </div>
       </div>
+
+
+
     </div>
   );
 }

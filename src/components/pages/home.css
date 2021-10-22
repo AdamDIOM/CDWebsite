@@ -26,3 +26,6 @@ Navbar{
   font-display: block;
 }
 
+.scroll-img{
+  max-width:100px;
+}
