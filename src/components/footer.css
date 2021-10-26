@@ -1,4 +1,19 @@
 .Footer{
-  background-color:black;
-  color:white;
+  background-color:#0C1C48;
+  color:antiquewhite;
+  padding:25px;
+}
+
+h4{
+  font-style:bold;
+  text-align:left;
+}
+
+.footerBullet{
+  text-align:left;
+  display:inline-block;
+}
+
+.email{
+  color:antiquewhite;
 }
