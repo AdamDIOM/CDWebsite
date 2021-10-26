@@ -3,7 +3,7 @@
 }
 .BackImage{
 
-  background-image: url("../../images/stock-handshake.jpeg");
+  background-image: url("../../../images/stock-handshake.jpeg");
   background-repeat:no-repeat;
   background-position: center;
   background-size: cover;
@@ -26,3 +26,6 @@ Navbar{
   font-display: block;
 }
 
+.scroll-img{
+  max-width:100px;
+}
